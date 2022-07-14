@@ -30,19 +30,21 @@ System.out.println("Enter the Values for the 2nd Line");
         int Y4 = Scan.nextInt();
 
         double length = Math.sqrt((X2 - X1) * (Y2 - Y1) + (Y2 - Y1) * (Y2 - Y1));
-        System.out.println("The length of the line is  : " +length);
+        System.out.println("The Line Segment 1 of the line is  : " +length);
 
         double length2 = Math.sqrt((X4 - X3) * (Y4 - Y3) + (Y4 - Y3) * (Y4 - Y3));
-        System.out.println("The length of the line is  : " +length2);
+        System.out.println("The Line Segment 2 of the line is  : " +length2);
 
-        if(length == length2)
-        {
-            System.out.println("The Lines Segments are Equal");
-        }
-        else{
-            System.out.println("The Lines Segments are not Equal");
+            if (length2 <= length)
+            {
+                System.out.println("Line Segment 1 is Bigger than the Line Segment 2");
+            }
+            else if(length == length2) {
+                System.out.println("Line are Equal ");
+            }
+            else {
+                System.out.println("Line Segment 2 is Bigger than the Line Segment 1");
+            }
         }
 
     }
-}
-
