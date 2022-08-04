@@ -46,5 +46,4 @@ System.out.println("Enter the Values for the 2nd Line");
                 System.out.println("Line Segment 2 is Bigger than the Line Segment 1");
             }
         }
-
     }
