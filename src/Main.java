@@ -42,7 +42,6 @@ System.out.println("Enter the Values for the 2nd Line");
         else{
             System.out.println("The Lines Segments are not Equal");
         }
-
     }
 }
 
