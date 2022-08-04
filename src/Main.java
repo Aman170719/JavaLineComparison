@@ -18,6 +18,6 @@ public class Main {
         int Y2 = Scan.nextInt();
         double length = Math.sqrt((X2 - X1) * (Y2 - Y1) + (Y2 - Y1) * (Y2 - Y1));
         System.out.println("The length of the line is  : " +length);
-    }
+   }
 }
 
